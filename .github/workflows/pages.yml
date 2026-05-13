@@ -19,10 +19,11 @@ jobs:
           node-version: '20'
 
       # Step 3: Install dependencies
+      # Use npm install instead of npm ci, since you may not have a lockfile yet
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      # Step 4: Build the site
+      # Step 4: Build the site (TypeScript + Vite)
       - name: Build the site
         run: npm run build
 
@@ -34,3 +35,4 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           force_orphan: true
+

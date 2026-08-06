@@ -21,7 +21,7 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Expected Graduation: [Year]. Persistent learner with a focus on clarity, collaboration, and innovation in AI and Software Development.
+              Expected Graduation: [2029]. Persistent learner with a focus on clarity, collaboration, and innovation in AI and Software Development.
             </p>
           </div>
         </div>
